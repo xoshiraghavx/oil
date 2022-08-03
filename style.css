@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'PT Sans', sans-serif;
+}
+.page{
+    height: 85%;
+    top: 0;
+}
+.header{
+    display: flex;
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 6%;
+ }
+#img{
+    width: 60%;
+    height: 30%;
+ }
+.call{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(148, 247, 152);
+    padding: 0px 30px;
+    cursor: pointer;
+    border-radius: 10%;    
+}
+.call a{
+text-decoration: none;
+ color: #283747;
+
+}
+.text{
+    margin-left: 10%;
+    margin-top: 8%;
+}
+#H1{
+    color: #283747;
+    font-size: 28px;
+}
+.right-contact-us{
+    width: 55%;
+}
+.contact-col input, .contact-col textarea{
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing:border-box ;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(148, 247, 152);
+    border: 1px solid rgb(148, 247, 152);
+    padding: 12px 34px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.left img {
+    height: 100%;
+    width: 100%;
+}
+.left {
+    position: absolute;
+    left:55%;
+    right: 10%;
+    background-repeat: no-repeat;
+    height: 85%;
+    background-size: cover;
+    background-position: 100%;
+    top: 0;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.facilities h1{
+    font-size: 3rem;
+    color: #283747;
+}
+.facilities-col{
+    flex-basis: 23%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-col p{
+    padding: 0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.last img{
+    height: 20%;
+}
+
+@media(max-width: 700px){
+    .left{
+        display: none;
+    }
+    .contact-col input, .contact-col textarea{
+        width: 90%;
+        padding: 15px;
+        margin-bottom: 15px;
+        outline: none;
+        border: 1px solid #ccc;
+        box-sizing:border-box ; 
+    }
+    .right-contact-us{
+        width: 100%;
+    }
+    .call{
+        margin-left: 62%;
+        padding: 5%;
+        border-radius: 10%;
+    }
+    #banner{
+        display: none;
+    }
+    /* ---------facilities-------- */
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.facilities h1{
+    font-size: 2rem;
+    color: #283747;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    text-align: left;
+}
+.facilities-col img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.facilities-col p{
+    padding: 0;
+    color: gray;
+    padding-bottom: 10%;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+}
+
+
